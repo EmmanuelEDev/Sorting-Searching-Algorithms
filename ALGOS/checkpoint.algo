@@ -1,0 +1,15 @@
+PROCEDURE insertion_sort
+VAR
+    arr : ARRAY_OF INTEGER;
+    i,j,key : INTEGER;
+BEGIN
+    FOR i FROM 1 TO arr[i] - 1  DO
+        key := arr[i]
+        j = i - 1
+        WHILE (j = 0 and arr[j]) DO
+            arr[j + 1] := arr[j]
+            j := j - 1
+        END_WHILE
+    END_FOR
+    key := arr[j +1] 
+END
